@@ -28,7 +28,8 @@
 
 TOOLCHAIN_PATH ?= /usr/local/arm/
 
-PGM_INTERFACE ?= stlink-v2
+PGM_INTERFACE ?= jlink
+# PGM_INTERFACE ?= stlink-v2
 # PGM_INTERFACE ?= ftdi/olimex-arm-jtag-swd
 # PGM_INTERFACE ?= ftdi/olimex-arm-usb-ocd-h
 
